@@ -55,8 +55,7 @@ public abstract class LongIntPair implements PrimitivePair<Long, Integer>, Compa
     public abstract int getRight();
 
     /**
-     * Compares the pair based on the left element followed by the right element. The left element
-     * must be {@link Comparable}.
+     * Compares the pair based on the left element followed by the right element.
      *
      * @param other  the other pair, not null
      * @return negative if this is less, zero if equal, positive if greater
