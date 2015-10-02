@@ -3,7 +3,7 @@
  * contributor license agreements.  See the NOTICE file distributed with Apache Commons Lang 3 for
  * additional information regarding copyright ownership.
  *
- * Brandon Mintern and the ASF licenses this file to You under the Apache License, Version 2.0 (the
+ * Brandon Mintern and the ASF license this file to You under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance with the License.  You may obtain a
  * copy of the License at
  *
@@ -20,8 +20,7 @@ import org.apache.commons.lang3.tuple.ImmutablePair;
 
 /**
  * An immutable pair consisting of {@code double} elements, providing a version of
- * {@link org.apache.commons.lang3.tuple.ImmutablePair} that avoids unnecessary {@code Double}
- * boxing.
+ * {@link ImmutablePair} that avoids unnecessary {@code Double} boxing.
  * <p>
  * The class is {@code final}, so a subclass cannot add undesirable behavior.
  * <p>
@@ -29,7 +28,7 @@ import org.apache.commons.lang3.tuple.ImmutablePair;
  *
  * @author Brandon Mintern
  */
-public class ImmutableDoublePair extends DoublePair {
+public final class ImmutableDoublePair extends DoublePair {
 
     private static final long serialVersionUID = 1;
 

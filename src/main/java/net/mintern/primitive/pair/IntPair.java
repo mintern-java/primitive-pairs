@@ -3,7 +3,7 @@
  * contributor license agreements.  See the NOTICE file distributed with Apache Commons Lang 3 for
  * additional information regarding copyright ownership.
  *
- * Brandon Mintern and the ASF licenses this file to You under the Apache License, Version 2.0 (the
+ * Brandon Mintern and the ASF license this file to You under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance with the License.  You may obtain a
  * copy of the License at
  *
@@ -89,7 +89,7 @@ public abstract class IntPair implements PrimitivePair<Integer, Integer>, Compar
      * Returns a hash code that follows the definition in {@link java.util.Map.Entry#hashCode()}.
      *
      * @return the hash code
-     * @see Integer#hashCode(Object)
+     * @see Integer#hashCode(int)
      */
     @Override
     public int hashCode() {

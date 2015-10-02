@@ -3,7 +3,7 @@
  * contributor license agreements.  See the NOTICE file distributed with Apache Commons Lang 3 for
  * additional information regarding copyright ownership.
  *
- * Brandon Mintern and the ASF licenses this file to You under the Apache License, Version 2.0 (the
+ * Brandon Mintern and the ASF license this file to You under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance with the License.  You may obtain a
  * copy of the License at
  *
@@ -19,7 +19,8 @@ package net.mintern.primitive.pair;
 import org.apache.commons.lang3.tuple.MutablePair;
 
 /**
- * A mutable pair consisting of a {@code long} element and an {@code int} element.
+ * A mutable pair consisting of a {@code long} element and an {@code int} element, providing a
+ * version of {@link MutablePair} that avoids unnecessary {@code Long} and {@code Integer} boxing.
  * <p>
  * Not #ThreadSafe#
  *
